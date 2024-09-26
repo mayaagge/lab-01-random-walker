@@ -1,1 +1,3 @@
 Write at least one paragrath explaining your solution in the file solution.txt. Please be clear.
+
+We would  have a loop for n iterations that adds one in any direction. We can do this by having a variable that is randomly set to a number from [1, 4] to determine the direction and then adding one or subtracting to the appropriate x or y coordinate. We do this n times to get the path and the points would determined by (x,y). In the end we can get the distance from the starting point (0,0) by doing pythagorean theorem on the final points to the intial coordinates.

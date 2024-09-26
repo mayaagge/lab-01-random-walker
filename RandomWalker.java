@@ -2,14 +2,17 @@
 import java.util.Scanner;
 public class RandomWalker
 {
-  int x = 0;
-  int y = 0;
-  int direction = 0;
-  double randomNum = Math.random();
+
   public static void walking(int n)
   {
+    int x = 0;
+    int y = 0;
+    int direction = 0;
+    double randomNum = Math.random();
     for (int i = 0; i < n; i++)
     {
+      double randomNum = Math.random();
+      direction = randomNum;
       if (direction == 1)
       {
         x++;

@@ -1,11 +1,40 @@
 // YOUR CODE HERE
+import java.util.Scanner;
 public class RandomWalker
 {
   int x = 0;
   int y = 0;
-  int direction = 0
+  int direction = 0;
+  double randomNum = Math.random();
+  public static void walking(int n)
+  {
+    for (int i = 0; i < n; i++)
+    {
+      if (direction == 1)
+      {
+        x++;
+      }
+      if (direction == 2)
+      {
+        x--;
+      }
+      if (direction == 3)
+      {
+        y++;
+      }
+      if (direction == 4)
+      {
+        y--;
+      }
+    }
+    System.out.println("(" + x + "," + y + ")"); 
+  }
+  
   public static void main (String[] args)
   {
-    
+    Scanner input = new Scanner(System.in);
+    System.out.println("How many steps do you want to take");
+    walking(input.nextInt());
+    System.out.println("distance: " + (x*x + y*y));
   }
 }

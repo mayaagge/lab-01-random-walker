@@ -12,7 +12,7 @@ public class RandomWalker
     for (int i = 0; i < n; i++)
     {
       double randomNum = Math.random();
-      direction = randomNum*4+1;
+      direction = (int) (randomNum*4+1);
       if (direction == 1)
       {
         x++;

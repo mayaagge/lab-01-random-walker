@@ -1,10 +1,10 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/DhQclFsD)
 # Lab 01: RandomWalker
 
-**Group Name:**
+**Group Name:** cats
 
-**Collaborators:**
+**Collaborators:** Sihan Wang and Maya Agge
 
-**Period:**
+**Period:** 2
 
-**Emails:**
+**Emails:** sihanw@nycstudents.net and mayaa71@nycstudents.net

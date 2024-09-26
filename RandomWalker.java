@@ -29,8 +29,9 @@ public class RandomWalker
       {
         y--;
       }
+      System.out.println("(" + x + "," + y + ")"); 
     }
-    System.out.println("(" + x + "," + y + ")"); 
+    System.out.println("distance: " + (x*x + y*y));
   }
   
   public static void main (String[] args)
@@ -38,6 +39,5 @@ public class RandomWalker
     Scanner input = new Scanner(System.in);
     System.out.println("How many steps do you want to take");
     walking(input.nextInt());
-    System.out.println("distance: " + (x*x + y*y));
   }
 }

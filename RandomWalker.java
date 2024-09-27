@@ -30,7 +30,7 @@ public class RandomWalker
       }
       System.out.println("(" + x + "," + y + ")"); 
     }
-    System.out.println("distance: " + (x*x + y*y));
+    System.out.println("distance squared: " + (x*x + y*y));
   }
   
   public static void main (String[] args)

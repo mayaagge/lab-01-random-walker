@@ -38,7 +38,6 @@ public class RandomWalker
     Scanner input = new Scanner(System.in);
     System.out.println("How many steps do you want to take?");
     int steps = input.nextInt();
-    input.nextLine();
-    walking(input.nextInt());
+    walking(steps);
   }
 }
